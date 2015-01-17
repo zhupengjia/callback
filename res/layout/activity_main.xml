@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/contact" />
+
+    <EditText
+        android:id="@+id/callee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/contact"
+        android:layout_marginTop="25dp"
+        android:layout_toLeftOf="@+id/call"
+        android:ems="10"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/callstatus"
+        android:layout_alignParentRight="true"
+        android:text="@string/call" />
+
+    <TextView
+        android:id="@+id/callstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/callee"
+        android:layout_below="@+id/callee"
+        android:text="@string/callstatus"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/callstatus"
+        android:layout_marginTop="38dp"
+        android:layout_toRightOf="@+id/reflesh"
+        android:text="@string/balance"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/reflesh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/balance"
+        android:layout_alignBottom="@+id/balance"
+        android:layout_alignLeft="@+id/callstatus"
+        android:text="@string/reflesh" />
+
+    <EditText
+        android:id="@+id/checkareatext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/reflesh"
+        android:layout_marginTop="51dp"
+        android:layout_toLeftOf="@+id/call"
+        android:ems="30"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/checkarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/areabutton"
+        android:text="@string/checkarea"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/areabutton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/checkareatext"
+        android:layout_alignLeft="@+id/call"
+        android:text="@string/areabutton" />
+
+</RelativeLayout>

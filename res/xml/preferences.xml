@@ -1,0 +1,115 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:id="@+id/webcallon"
+        android:key="webcallon"
+        android:defaultValue="true"
+        android:title="@string/webcallon" />
+    <EditTextPreference
+        android:id="@+id/username"
+        android:key="username"
+        android:defaultValue=""
+        android:title="@string/username" />
+    <EditTextPreference
+        android:id="@+id/password"
+        android:key="password"
+        android:inputType="textPassword"
+        android:defaultValue=""
+        android:title="@string/password" />
+    <EditTextPreference
+        android:id="@+id/callurlapi"
+        android:key="callurlapi"
+        android:defaultValue="http://www.callda.com/interface/callbackNoLogin.jsp?caller=%s&amp;callee=%s"
+        android:title="@string/callurlapi" />
+    <EditTextPreference
+        android:id="@+id/balanceurlapi"
+        android:key="balanceurlapi"
+        android:defaultValue="http://www.callda.com/interface/balance.jsp?name=%s&amp;pwd=%s"
+        android:title="@string/balanceurlapi" />
+    <CheckBoxPreference
+        android:id="@+id/directcallbackon"
+        android:key="directcallbackon"
+        android:defaultValue="false"
+        android:title="@string/directcallbackon" />
+    <EditTextPreference
+        android:id="@+id/directcallnum"
+        android:key="directcallnum"
+        android:defaultValue="13617885145"
+        android:title="@string/directcallnum" />
+    <CheckBoxPreference
+        android:id="@+id/callbackon"
+        android:key="callbackon"
+        android:defaultValue="false"
+        android:title="@string/callbackon" />
+    <EditTextPreference
+        android:id="@+id/callbacknum"
+        android:key="callbacknum"
+        android:defaultValue="15537145145"
+        android:title="@string/callbacknum" />
+    <EditTextPreference
+        android:id="@+id/callexclude"
+        android:key="callexclude"
+        android:defaultValue="13094647672|1001|400|05106695|130576|130725|130225"
+        android:title="@string/callexclude" />
+    <EditTextPreference
+        android:id="@+id/callinclude"
+        android:key="callinclude"
+        android:defaultValue=""
+        android:title="@string/callinclude" />
+    <EditTextPreference
+        android:id="@+id/autocallback"
+        android:key="autocallback"
+        android:defaultValue=""
+        android:title="@string/autocallback" />
+    <EditTextPreference
+        android:id="@+id/ringsec"
+        android:key="ringsec"
+        android:inputType="number"
+        android:defaultValue="0"
+        android:title="@string/ringsec" />
+    <EditTextPreference
+        android:id="@+id/callwaitsec"
+        android:key="callwaitsec"
+        android:inputType="number"
+        android:defaultValue="0"
+        android:title="@string/callwaitsec" />
+    <EditTextPreference
+        android:id="@+id/autoreceive"
+        android:key="autoreceive"
+        android:defaultValue="13094647672"
+        android:title="@string/autoreceive" />
+    <CheckBoxPreference
+        android:id="@+id/autospeak"
+        android:key="autospeak"
+        android:defaultValue=""
+        android:title="@string/autospeak" />
+    <EditTextPreference
+        android:id="@+id/blacknum"
+        android:key="blacknum"
+        android:defaultValue=""
+        android:title="@string/blacknum" />
+    <CheckBoxPreference
+        android:id="@+id/blockprivatenum"
+        android:key="blockprivatenum"
+        android:defaultValue="false"
+        android:title="@string/blockprivatenum" />
+    <EditTextPreference
+        android:id="@+id/areadatabaseloc"
+        android:key="areadatabaseloc"
+        android:defaultValue="/sdcard/codearea.db"
+        android:title="@string/areadatabaseloc" />
+    <EditTextPreference
+        android:id="@+id/areadatabaseurl"
+        android:key="areadatabaseurl"
+        android:defaultValue="http://home.ustc.edu.cn/~zhupj55/codearea.db"
+        android:title="@string/areadatabaseurl" />
+    <EditTextPreference
+        android:id="@+id/softwareloc"
+        android:key="softwareloc"
+        android:defaultValue="/sdcard/callback.apk"
+        android:title="@string/softwareloc" />
+    <EditTextPreference
+        android:id="@+id/softwareurl"
+        android:key="softwareurl"
+        android:defaultValue="http://home.ustc.edu.cn/~zhupj55/callback.apk"
+        android:title="@string/softwareurl" />
+</PreferenceScreen>

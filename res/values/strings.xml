@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">电话助手</string>
+    <string name="callstatus">输入号码拨打</string>
+    <string name="contact">联系人</string>
+    <string name="balance">未更新</string>
+    <string name="reflesh">余额</string>
+    <string name="call">拨打</string>
+    <string name="checkarea">查询归属地</string>
+    <string name="areabutton">查询</string>
+    <string name="settings">设置</string>
+    <string name="update">软件更新</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="balanceurlapi">余额获取api</string>
+    <string name="callurlapi">回拨网址api</string>
+    <string name="callexclude">黑名单(不用回拨)</string>
+    <string name="callinclude">白名单(始终回拨)</string>
+    <string name="callbacknum">回拨号码设置</string>
+    <string name="directcallnum">半直拨号码设置</string>
+    <string name="autoreceive">自动接听号码</string>
+    <string name="autospeak">自动接听时打开扬声器</string>
+    <string name="autocallback">自动回拨号码</string>
+    <string name="ringsec">回拨挂断前等待时间(ms)</string>
+    <string name="callwaitsec">回拨等待时间(ms)</string>
+    <string name="blacknum">来电黑名单</string>
+    <string name="blockprivatenum">私人号码过滤</string>
+    <string name="webcallon">开启网络回拨</string>
+    <string name="callbackon">开启回拨(普通回拨)</string>
+    <string name="directcallbackon">开启回拨(半直拨)</string>
+    <string name="areadatabaseloc">归属地数据库保存位置</string>
+    <string name="softwareloc">软件保存位置</string>
+    <string name="areadatabaseurl">归属地数据库下载地址</string>
+    <string name="softwareurl">软件下载地址</string>
+    <string name="areadataupdate">归属地更新</string>
+
+</resources>
